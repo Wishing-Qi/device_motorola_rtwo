@@ -9,7 +9,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
+# Inherit some common Twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from rtwo device
@@ -21,9 +21,3 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Kalama for arm64
 PRODUCT_MANUFACTURER := motorola
 
-PRODUCT_GMS_CLIENTID_BASE := android-motorola
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="rtwo-user 13 U1TR34.8-30-18 1fef5 release-keys"
-
-BUILD_FINGERPRINT := motorola/rtwo/rtwo:13/U1TR34.8-30-18/1fef5:user/release-keys
