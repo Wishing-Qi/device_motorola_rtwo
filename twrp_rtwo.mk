@@ -21,3 +21,8 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Kalama for arm64
 PRODUCT_MANUFACTURER := motorola
 
+
+PRIVATE_BUILD_DESC="rtwo-user 14 U1TR34.8-30-13-2-2 5b4b0d release-keys"
+
+BUILD_FINGERPRINT := motorola/rtwo/rtwo:14/U1TR34.8-30-13-2-2/5b4b0d:user/release-keys
+
