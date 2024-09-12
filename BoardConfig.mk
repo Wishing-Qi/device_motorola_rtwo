@@ -16,8 +16,13 @@ AB_OTA_PARTITIONS += \
     vendor \
     system_ext \
     product \
+<<<<<<< HEAD
     system
 
+=======
+    vendor
+BOARD_USES_RECOVERY_AS_BOOT := true
+>>>>>>> parent of d5f7eb8... Update BoardConfig.mk
 
 # Architecture
 TARGET_ARCH := arm64
